@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+  width: 1000px;
+}
+
+header {
+  background-color: #ffcccc;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+#menu {
+  background-color: #ccccff;
+  float: right;
+  width: 300px;
+}
+
+#main {
+  background-color: #ccffcc;
+  float: left;
+  width: 700px;
+}
+
+footer {
+  background-color: #ffccff;
+}
