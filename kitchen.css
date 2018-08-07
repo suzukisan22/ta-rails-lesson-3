@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* チャプター：CSSの実習準備 */
+body {
+  margin :0;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+}
+
+a {
+  color: #333;
+}
+
+a:visited {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
